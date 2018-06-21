@@ -1,0 +1,17 @@
+:host{
+    flex: 100%;
+}
+.product-list{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1140px;
+    justify-content:space-evenly;
+    padding: 2em 0px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+app-products-item{
+}

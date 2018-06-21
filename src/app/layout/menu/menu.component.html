@@ -1,0 +1,33 @@
+<header>
+  <div class="app-menu">
+    <img src="" alt="">
+    <ul class="nav">
+      <li><a routerLink="">Trang Chủ</a></li>
+      <li class="sub-menu">
+        <a>Tìm Hiểu AJI-MAYO</a>
+        <ul class="menu-child">
+          <li><a routerLink="">Tìm Hiểu</a></li>
+          <li><a routerLink="">Về Ajimayo</a></li>
+        </ul>
+      </li>
+      <li><a routerLink="">Món Ngon AYOMANAISE</a></li>
+      <li>
+        <div class="toggle">
+          <i class="fa fa-shopping-cart" aria-hidden="true" (getProduct)="getProduct($event)"><p>0</p></i>
+        </div>
+        <div class="infoCart">
+          <img src="assets/quangcao2.png" alt="">
+          <div class="info-product">
+            <p>tên sản phẩm</p>
+            <p>1</p>
+            <p>45000 VNĐ</p>
+          </div>
+          <hr>
+          <p class="total">Total: 45000 VNĐ</p>
+          <button class="order"><a routerLink="">Đặt Hàng</a></button>
+        </div>
+      </li>
+    </ul>
+  </div>
+</header>
+

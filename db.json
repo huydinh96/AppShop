@@ -1,0 +1,52 @@
+{
+  "products": [{
+      "id": 1,
+      "name": "Sản phẩm 1",
+      "price": 20000,
+      "content": "Nội dung của thông tin sản phẩm 1",
+      "sales":"false"
+    },
+    {
+      "id": 2,
+      "name": "Sản phẩm 2",
+      "price": 20000,
+      "content": "Nội dung của thông tin sản phẩm 2",
+      "sales":"true"
+    },
+    {
+      "id": 3,
+      "name": "Sản phẩm 3",
+      "price": 20000,
+      "content": "Nội dung của thông tin sản phẩm 3",
+      "sales":"false"
+    },
+    {
+      "id": 4,
+      "name": "Sản phẩm 4",
+      "price": 20000,
+      "content": "Nội dung của thông tin sản phẩm 4",
+      "sales":"true"
+    },
+    {
+      "id": 5,
+      "name": "Sản phẩm 5",
+      "price": 20000,
+      "content": "Nội dung của thông tin sản phẩm 5",
+      "sales":"false"
+    },
+    {
+      "id": 6,
+      "name": "Sản phẩm 6",
+      "price": 20000,
+      "content": "Nội dung của thông tin sản phẩm 6",
+      "sales":"false"
+    }
+  ],
+  "Customer": [{
+    "id": 1,
+    "username": "",
+    "password": "",
+    "confimPassword":"",
+    "email": ""
+  }]
+}

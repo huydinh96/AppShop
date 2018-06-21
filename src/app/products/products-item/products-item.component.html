@@ -1,0 +1,13 @@
+<div class="product-item">
+  <img src="assets/quangcao2.png" alt="">
+  <div class="info">
+    <a>{{product.name}}</a>
+    <p>{{product.content}}</p>
+    <p>{{product.price}} VNĐ</p>
+    <p>{{product.sales === 'true' ? 'Còn Hàng' : 'Hết Hàng'}}</p>
+    <div class="detail-item">
+      <button class="fa fa-shopping-cart" aria-hidden="true" (click)="addToCart(product)"></button>
+      <button class="fa fa-link" aria-hidden="true"></button>
+    </div>
+  </div>
+</div>
